@@ -1,6 +1,7 @@
-
-
-
+const caixaPrincipal = document.querySelectorAll("caixa-primcipal")
+const caixaPerguntas = document.querySelectorAll("caixa-perguntas")
+const caixaAltrnativas= document.querySelectorAll("caixa-alternativas")
+const caixaResultaso = document.querySelectorAll("caixa-resultado")
 
 
 const perguntas = [
