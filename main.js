@@ -1,3 +1,4 @@
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -14,7 +15,7 @@ const perguntas = [
             },
             {
                 texto: "O caminho envolto em névoa e sombras.",
-                afirmacao: "Você encontrou uma floresta misteriosa e optou seguir pelo caminho misterioso e sombrio",
+                afirmacao: "Você encontrou uma floresta misteriosa e optou seguir pelo caminho misterioso e sombrio.",
             }
         ]
     },
@@ -104,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Sua jornada foi!";
+    caixaPerguntas.textContent = "sua jornada foi!";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
